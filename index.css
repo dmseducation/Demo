@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: black;
+  color: #ffffff;
+}
+.navbar {
+    background-color: rgb(32, 36, 45);
+    border-radius: 5px;
+    margin: 10px;
+}
+.navbar .nav {
+  width: 93%;
+  display: flex;
+ 
+}
+.navbar .nav .box {
+  width: 50%;
+  display: flex;
+  font-size: 8px;
+  margin-top: 10px;
+}
+.box-info {
+  display: flex;
+  font-size: 8px;
+  justify-content: center;
+}
+.navbar .nav .box .box1 {
+  margin-top: 30px;
+  font-size: 15px;
+}
+.navbar .nav .box .box1 #h {
+  color: red;
+}
+.navbar .nav .box .box1 #e {
+  color: rgb(9, 249, 221);
+}
+.navbar .nav .box .box1 #l {
+  color: rgb(133, 9, 249);
+}
+.navbar .nav .box .box1 #l1 {
+  color: rgb(241, 240, 245);
+}
+.navbar .nav .box .box1 #o {
+  color: rgb(249, 193, 9);
+}
+.navbar .nav .box .information h3 {
+  color: aqua;
+}
+.navbar .nav .box a {
+  cursor: pointer;
+  margin-left: 8px;
+  color: white;
+  text-decoration: none; 
+}
+.navbar .nav .box a:hover {   
+    color: rgb(207, 28, 28);
+  }
+.navbar .nav .box .image {
+  
+
+}
+.navbar .nav .box img {
+    margin-top: 50px;
+    margin-left: 20px;
+    height: 200px;
+    width:70%;
+ 
+} 
